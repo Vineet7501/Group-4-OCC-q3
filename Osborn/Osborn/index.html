@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osborn</title>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://kit.fontawesome.com/ee2e864e38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <!-- Header section -->
+
+    <div class="row header-widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-lg-4 logo">
+                    <img class="img-responsive" src="image/osborn_logo.png" alt="logo">
+                </div>
+                <span style="font-size:30px;cursor:pointer" id="burgerM" onclick="openNav()">&#9776; </span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Products </a>
+                    <a href="#">Application</a>
+                    <a href="#">Markets</a>
+                    <a href="#">Support</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-lg-8">
+                    <ul class="list1 head_top navigation-wrapper">
+                        <li class="collapse navbar-collapse">
+                            <a href="#"> <span>Contact</span></a>
+                        </li>
+                        <li class="dropdown collapse navbar-collapse">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu clearfix styles" id="top-menu" role="menu">
+                                <li><a href="#">Why Osborn</a></li>
+                                <li><a href="#">Company History</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <i class="fas fa-globe"></i>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Global-English</a>
+                            <ul class="dropdown-menu clearfix" id="top-menu" role="menu">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Region</th>
+                                            <th>Language</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>North America</td>
+                                            <td>English</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Globel</td>
+                                            <td>English</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>German</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>Swedish</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navbar Section -->
+            <div class="col-md-12">
+                <div class="collapse navbar-collapse sm-hidden">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCTS</a>
+                            <ul class="dropdown-menu clearfix styles" id="top-menu" role="menu">
+                                <li> <a href="#">Load Runners</a> </li>
+                                <li> <a href="#">Roller Technologies</a> </li>
+                                <li> <a href="#">Power Brushes</a> </li>
+                                <li> <a href="#">Industrial Brushes</a> </li>
+                                <li> <a href="#">Strip Brushes</a> </li>
+                                <li> <a href="#">Cutting & Grinding Tools</a> </li>
+                                <li> <a href="#">Polishing Tools & Compounds</a> </li>
+                                <li> <a href="#">Diamond Tools</a> </li>
+                                <li> <a href="#">Maintenance Brushes</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">APPLICATION</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MARKETS</a>
+                            <ul class="dropdown-menu clearfix styles" id="top-menu" role="menu">
+                                <li> <a href="#">Oil & Gas</a> </li>
+
+                                <li> <a href="#">Shipbuilding</a> </li>
+
+                                <li> <a href="#">Building & Construction</a> </li>
+
+                                <li> <a href="#">Metal Fabrication</a> </li>
+
+                                <li> <a href="#">Rolling Mills</a> </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SUPPORT</a>
+                            <ul class="dropdown-menu clearfix styles" id="top-menu" role="menu">
+                                <li> <a href="#">Literature</a></li>
+
+                                <li> <a href="#">Safety recommendation</a></li>
+
+                                <li> <a href="#">Certificates</a></li>
+
+                                <li> <a href="#">Terms & Condtions</a></li>
+
+                                <li> <a href="#">Newsletters</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container-fluid">
+            <!-- <div class="col-xs-12"> -->
+
+            <div id="myCarousel" class="carousel slide " data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators ">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner ">
+                    <div class="item active ">
+                        <img src="/image/banner1.webp" alt="banner1">
+                        <div class="container-fluid">
+                            <div class="carousel-caption">
+                                <h2>A PROMISE + PERFORMANCE BUILT ON</h2>
+                                <h1><strong>TRADITION</strong></h1>
+
+
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn about our commitment
+                                        to you</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="/image/banner2.webp" alt="banner2">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>COST REDUCTION</h2><br>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <img src="/image/banner3.webp" alt="banner3">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>HIGHLY TRAINED</h2>
+                                <h1><strong>EXPERT</strong></h1><br>
+
+
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More to you</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/image/banner4.webp" alt="banner4">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>HIGHEST QUALITY &</h2>
+                                <h1><strong>SAFETY</strong></h1><br>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!-- Hero Text -->
+            <div class="row" id="about-us">
+                <div class="container content">
+                    <p><strong>Your challenge. Our solution. </strong>Osborn offers the best solutions for your
+                        mechanical
+                        surface treatment challenges. Our experts are highly trained to serve you with the optimum
+                        off-the-shelf or customized tools, when and where you need them. Unlike others, we help you
+                        optimize
+                        your process, meet the highest quality and safety requirements and reduce your costs.</p>
+
+                    <div class="col-xs-12 link text-center"><a href="/en/whyOsborn">About Us</a></div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+    <!-- Home Product Section -->
+    <section>
+        <div class="product-section">
+            <h4 class="col-xs-12 text-center">PRODUCTS</h4><br><br><br>
+
+            <div class="container prod">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd1.webp" alt="product"><br>
+                        <h4 class="prod-text">Load Runner</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd2.webp" alt="product"><br>
+                        <h4 class="prod-text">Roller Technologies</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd3.webp" alt="product"><br><br>
+                        <h4 class="prod-text">Power Brushes</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd2.webp" alt="product"><br>
+                        <h4 class="prod-text">Industrial Brushes</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p><br><br>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd5.webp" alt="product"><br>
+                        <h4 class="prod-text">Strip Brushes</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd6.webp" alt="product"><br>
+                        <h4 class="prod-text"> Cutting & Grinding Tools </h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd7.webp" alt="product"><br>
+                        <h4 class="prod-text">Polishing Tools & Compounds</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                        <img src="/image/product/pd8.webp" alt="product"><br>
+                        <h4 class="prod-text">Diamond Tools</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p>
+
+                    </div><br>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                        <img src="/image/product/pd9.webp" alt="product"><br>
+                        <h4 class="prod-text">Maintenance Brushes</h4><br><br>
+                        <p><a class="btn btn-lg btn-prod" href="#" role="button">View Products</a></p><br>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section><br><br>
+    <div class="col-xs-12 pd0 text-center">
+        <h4><a class="product-text" href="#" role="link">View all Products</a></h4>
+
+    </div>
+    <br><br><br>
+    <!--================== Custom Solution Page start    ==================-->
+
+    <div style="position: relative;">
+        <div class="custom-Solution">
+            <div class="container content-Heading">
+                <h3 class="custom-Text">Custom Solutions</h3>
+                <p class="custom-Product">Providing custom products +
+                    solutions to
+                    following industries and beyond</p>
+            </div>
+            <div class="owl-carousel owl-theme">
+
+                <div class="items">
+
+                    <div class="card-img-top">
+
+                        <img src="/image/oilGas.png" style="width:70%" alt="" />
+
+                    </div>
+
+                    <div class="card-title">
+
+                        <h4>Oil & Gas</h4>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="card-text">
+
+                        <p>
+
+                            Osborn manufactures a wide variety of highly efficient brushes
+
+                            and abrasives
+
+                        </p>
+
+                        <a class="btn-custom" href="#">Learn more</a>
+
+                    </div>
+
+                </div>
+                <div class="items">
+
+                    <div class="card-img-top">
+
+                        <img src="/image/shipBuilding.png" style="width:70%" alt="" />
+
+                    </div>
+
+                    <div class="card-title">
+
+                        <h4>Shipbuilding</h4>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="card-text">
+
+                        <p>
+
+                            Choosing the right tool can save you a lot of time and money. Grinding and
+                            cleaning work in the shipbuilding industry takes a large part of your time. This makes it
+                            all
+                            the more important to have high quality tools in use that are characterized by a high
+                            removal
+                            rate, long service life and short set-up times.
+
+                        </p>
+
+                        <a class="btn-custom" href="#">Learn more</a>
+
+                    </div>
+
+                </div>
+                <div class="items">
+
+                    <div class="card-img-top">
+
+                        <img src="/image/buildingConstraction.png" style="width:70%" alt="" />
+
+                    </div>
+
+                    <div class="card-title">
+
+                        <h4>Building & Construction</h4>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="card-text">
+
+                        <p>
+
+                            Osborn offers a wide variety of building and construction products. These
+                            range
+                            from sealing products for doors and opening to products for cutting, grinding, welding and
+                            cleaning.
+
+                        </p>
+
+                        <a class="btn-custom" href="#">Learn more</a>
+
+                    </div>
+
+                </div>
+                <div class="items">
+
+                    <div class="card-img-top">
+
+                        <img src="/image/metalFabrication.png" style="width:70%" alt="" />
+
+                    </div>
+
+                    <div class="card-title">
+
+                        <h4>Metal Fabrication</h4>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="card-text">
+
+                        <p>
+
+                            Value add tools for metal fabrication. No matter what metal creation that is
+                            being cut, bent, or welded Osborn has the tools to help from brushes to clean surface to
+                            abrasives
+                            for cutting.
+
+                        </p>
+
+                        <a class="btn-custom" href="#">Learn more</a>
+
+                    </div>
+
+                </div>
+                <div class="items">
+
+                    <div class="card-img-top">
+
+                        <img src="/image/rollingMills.png" style="width:70%" alt="" />
+
+                    </div>
+
+                    <div class="card-title">
+
+                        <h4>Rolling Mills</h4>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="card-text">
+
+                        <p>
+
+                            Better Primary Metal and Rolling Mill solutions. Osborn offers multiple types
+                            of expertly designed brush rolls for various stages of the manufacturing process.
+
+                        </p>
+
+                        <a class="btn-custom" href="#">Learn more</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--================== Custom Solution Page end    ==================-->
+
+     <br><br><br>
+    <!-- =====================News and events strat===================== -->
+     <div class="custom-Contain">
+            <h3 class="news-Heading">NEWS AND EVENTS</h3>
+            <div class="clearfix">
+                <div class="img-container">
+                    <div class="banner-label" type="button">Press Release</div>
+                    <a href=""><img src="/image/richmond.jpg" alt="Italy" class="event-Image">
+
+                    </a>
+                    <p class="burgwald-Text"><strong>(Richmond, Indiana) Osborn, the world’s largest and most complete
+                            solution provider of high-quality surface treatment and finishing products, is pleased to
+                            announce
+                            that it has appointed Brian Cassady as its new Chief Executive Officer. Cassady joins Osborn
+                            after
+                            serving as President and CEO of Municipal Parking Services, Inc., a software-based parking
+                            management
+                            and violation detection systems technology company. At the helm of Osborn, Cassady will
+                            leverage his
+                            extensive manufacturing and international experience to drive the company’s plans for
+                            continued
+                            growth.</strong></p>
+                    <div class="item-date">March 1,
+                        2020
+                    </div>
+                </div>
+                <div class="img-container">
+                    <div class="banner-label">Press Release</div>
+                    <img src="/image/burgwald.jpg" alt="Forest" class="event-Image">
+
+                    <p class="burgwald-Text">(Burgwald/Wunsiedel). <strong>“I am thrilled to join Osborn and take charge
+                            of
+                            leading the company to an even stronger position in the abrasives and polishing products
+                            industry,”
+                            said Cassady. “I look forward to being able to bring my operational experience to a team
+                            that is
+                            passionate about developing innovative products for our customers, building on an already
+                            illustrious
+                            130+ year history as a global leader in surface finishing and polishing solutions.”</strong>
+                    </p>
+                    <div class="item-date">March 1,
+                        2020
+                    </div>
+                </div>
+                <div class="img-container">
+                    <div class="banner-label">Press Release</div>
+                    <img src="/image/dronco.jpg" alt="Mountains" class="event-Image">
+                    <p class="burgwald-Text">(Burgwald/Wunsiedel). <strong>All Dronco product labels have received a new
+                            design. Tidy and fresh, with clear user information and internationally understandable
+                            pictograms.
+                            Instead of the Dronco logo, they now carry the Osborn trademark. There are no further
+                            changes - the
+                            products have the same high quality as before.</strong></p>
+                    <div class="item-date">March 1,
+                        2020
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- =====================News and events end===================== -->
+
+    <!-- footer section -->
+
+    <div>
+        <div class="row footer-bottom">
+            <div class="container">
+                <div class="pull-left">
+                    <p>&copy; Osborn. All Rights Reserved</p>
+                </div>
+                <div>
+                    <ul class="footer-tag">
+                        <li><a class="footer-text" href="#">Careers</a></li>
+                        <li><a class="footer-text" href="#">Privacy
+                                Policy</a></li>
+                        <li><a class="footer-text" href="#">Terms &
+                                Conditions</a></li>
+                        <li><a class="footer-text" href="#">Legal
+                                Information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
